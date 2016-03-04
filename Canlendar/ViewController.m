@@ -7,8 +7,8 @@
 //
 
 #import "ViewController.h"
-
-@interface ViewController ()
+#import "YLCalendarView.h"
+@interface ViewController () <YHBaseCalendarViewDelegate>
 
 @end
 
@@ -17,6 +17,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    YLCalendarView *view = [[YLCalendarView alloc] initWithFrame:self.view.bounds];
+    view.delegate = self;
+    [view reloadView];
+    [self.view addSubview:view];
+    
+}
+
+- (void)YHBaseCalendarViewScrollEndToDate:(YLCalendarModel *)dateModel {
+    
+}
+
+- (void)YHBaseCalendarViewSelectAtDateModel:(YLCalendarModel *)dateModel {
+    
 }
 
 - (void)didReceiveMemoryWarning {
