@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		954AD44E1C8924A200BAAEFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 954AD44D1C8924A200BAAEFA /* main.m */; };
+		954AD4511C8924A200BAAEFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 954AD4501C8924A200BAAEFA /* AppDelegate.m */; };
+		954AD4541C8924A200BAAEFA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 954AD4531C8924A200BAAEFA /* ViewController.m */; };
+		954AD4571C8924A200BAAEFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 954AD4551C8924A200BAAEFA /* Main.storyboard */; };
+		954AD4591C8924A200BAAEFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 954AD4581C8924A200BAAEFA /* Assets.xcassets */; };
+		954AD45C1C8924A200BAAEFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 954AD45A1C8924A200BAAEFA /* LaunchScreen.storyboard */; };
+		954AD4671C8924A200BAAEFA /* CanlendarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 954AD4661C8924A200BAAEFA /* CanlendarTests.m */; };
+		954AD4721C8924A200BAAEFA /* CanlendarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 954AD4711C8924A200BAAEFA /* CanlendarUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		954AD4631C8924A200BAAEFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 954AD4411C8924A200BAAEFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 954AD4481C8924A200BAAEFA;
+			remoteInfo = Canlendar;
+		};
+		954AD46E1C8924A200BAAEFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 954AD4411C8924A200BAAEFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 954AD4481C8924A200BAAEFA;
+			remoteInfo = Canlendar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		954AD4491C8924A200BAAEFA /* Canlendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Canlendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		954AD44D1C8924A200BAAEFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		954AD44F1C8924A200BAAEFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		954AD4501C8924A200BAAEFA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		954AD4521C8924A200BAAEFA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		954AD4531C8924A200BAAEFA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		954AD4561C8924A200BAAEFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		954AD4581C8924A200BAAEFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		954AD45B1C8924A200BAAEFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		954AD45D1C8924A200BAAEFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		954AD4621C8924A200BAAEFA /* CanlendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanlendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		954AD4661C8924A200BAAEFA /* CanlendarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CanlendarTests.m; sourceTree = "<group>"; };
+		954AD4681C8924A200BAAEFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		954AD46D1C8924A200BAAEFA /* CanlendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanlendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		954AD4711C8924A200BAAEFA /* CanlendarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CanlendarUITests.m; sourceTree = "<group>"; };
+		954AD4731C8924A200BAAEFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		954AD4461C8924A200BAAEFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		954AD45F1C8924A200BAAEFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		954AD46A1C8924A200BAAEFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		954AD4401C8924A200BAAEFA = {
+			isa = PBXGroup;
+			children = (
+				954AD44B1C8924A200BAAEFA /* Canlendar */,
+				954AD4651C8924A200BAAEFA /* CanlendarTests */,
+				954AD4701C8924A200BAAEFA /* CanlendarUITests */,
+				954AD44A1C8924A200BAAEFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		954AD44A1C8924A200BAAEFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				954AD4491C8924A200BAAEFA /* Canlendar.app */,
+				954AD4621C8924A200BAAEFA /* CanlendarTests.xctest */,
+				954AD46D1C8924A200BAAEFA /* CanlendarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		954AD44B1C8924A200BAAEFA /* Canlendar */ = {
+			isa = PBXGroup;
+			children = (
+				954AD44F1C8924A200BAAEFA /* AppDelegate.h */,
+				954AD4501C8924A200BAAEFA /* AppDelegate.m */,
+				954AD4521C8924A200BAAEFA /* ViewController.h */,
+				954AD4531C8924A200BAAEFA /* ViewController.m */,
+				954AD4551C8924A200BAAEFA /* Main.storyboard */,
+				954AD4581C8924A200BAAEFA /* Assets.xcassets */,
+				954AD45A1C8924A200BAAEFA /* LaunchScreen.storyboard */,
+				954AD45D1C8924A200BAAEFA /* Info.plist */,
+				954AD44C1C8924A200BAAEFA /* Supporting Files */,
+			);
+			path = Canlendar;
+			sourceTree = "<group>";
+		};
+		954AD44C1C8924A200BAAEFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				954AD44D1C8924A200BAAEFA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		954AD4651C8924A200BAAEFA /* CanlendarTests */ = {
+			isa = PBXGroup;
+			children = (
+				954AD4661C8924A200BAAEFA /* CanlendarTests.m */,
+				954AD4681C8924A200BAAEFA /* Info.plist */,
+			);
+			path = CanlendarTests;
+			sourceTree = "<group>";
+		};
+		954AD4701C8924A200BAAEFA /* CanlendarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				954AD4711C8924A200BAAEFA /* CanlendarUITests.m */,
+				954AD4731C8924A200BAAEFA /* Info.plist */,
+			);
+			path = CanlendarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		954AD4481C8924A200BAAEFA /* Canlendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 954AD4761C8924A200BAAEFA /* Build configuration list for PBXNativeTarget "Canlendar" */;
+			buildPhases = (
+				954AD4451C8924A200BAAEFA /* Sources */,
+				954AD4461C8924A200BAAEFA /* Frameworks */,
+				954AD4471C8924A200BAAEFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Canlendar;
+			productName = Canlendar;
+			productReference = 954AD4491C8924A200BAAEFA /* Canlendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		954AD4611C8924A200BAAEFA /* CanlendarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 954AD4791C8924A200BAAEFA /* Build configuration list for PBXNativeTarget "CanlendarTests" */;
+			buildPhases = (
+				954AD45E1C8924A200BAAEFA /* Sources */,
+				954AD45F1C8924A200BAAEFA /* Frameworks */,
+				954AD4601C8924A200BAAEFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				954AD4641C8924A200BAAEFA /* PBXTargetDependency */,
+			);
+			name = CanlendarTests;
+			productName = CanlendarTests;
+			productReference = 954AD4621C8924A200BAAEFA /* CanlendarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		954AD46C1C8924A200BAAEFA /* CanlendarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 954AD47C1C8924A200BAAEFA /* Build configuration list for PBXNativeTarget "CanlendarUITests" */;
+			buildPhases = (
+				954AD4691C8924A200BAAEFA /* Sources */,
+				954AD46A1C8924A200BAAEFA /* Frameworks */,
+				954AD46B1C8924A200BAAEFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				954AD46F1C8924A200BAAEFA /* PBXTargetDependency */,
+			);
+			name = CanlendarUITests;
+			productName = CanlendarUITests;
+			productReference = 954AD46D1C8924A200BAAEFA /* CanlendarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		954AD4411C8924A200BAAEFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = yl;
+				TargetAttributes = {
+					954AD4481C8924A200BAAEFA = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					954AD4611C8924A200BAAEFA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 954AD4481C8924A200BAAEFA;
+					};
+					954AD46C1C8924A200BAAEFA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 954AD4481C8924A200BAAEFA;
+					};
+				};
+			};
+			buildConfigurationList = 954AD4441C8924A200BAAEFA /* Build configuration list for PBXProject "Canlendar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 954AD4401C8924A200BAAEFA;
+			productRefGroup = 954AD44A1C8924A200BAAEFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				954AD4481C8924A200BAAEFA /* Canlendar */,
+				954AD4611C8924A200BAAEFA /* CanlendarTests */,
+				954AD46C1C8924A200BAAEFA /* CanlendarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		954AD4471C8924A200BAAEFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				954AD45C1C8924A200BAAEFA /* LaunchScreen.storyboard in Resources */,
+				954AD4591C8924A200BAAEFA /* Assets.xcassets in Resources */,
+				954AD4571C8924A200BAAEFA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		954AD4601C8924A200BAAEFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		954AD46B1C8924A200BAAEFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		954AD4451C8924A200BAAEFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				954AD4541C8924A200BAAEFA /* ViewController.m in Sources */,
+				954AD4511C8924A200BAAEFA /* AppDelegate.m in Sources */,
+				954AD44E1C8924A200BAAEFA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		954AD45E1C8924A200BAAEFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				954AD4671C8924A200BAAEFA /* CanlendarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		954AD4691C8924A200BAAEFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				954AD4721C8924A200BAAEFA /* CanlendarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		954AD4641C8924A200BAAEFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 954AD4481C8924A200BAAEFA /* Canlendar */;
+			targetProxy = 954AD4631C8924A200BAAEFA /* PBXContainerItemProxy */;
+		};
+		954AD46F1C8924A200BAAEFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 954AD4481C8924A200BAAEFA /* Canlendar */;
+			targetProxy = 954AD46E1C8924A200BAAEFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		954AD4551C8924A200BAAEFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				954AD4561C8924A200BAAEFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		954AD45A1C8924A200BAAEFA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				954AD45B1C8924A200BAAEFA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		954AD4741C8924A200BAAEFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		954AD4751C8924A200BAAEFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		954AD4771C8924A200BAAEFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Canlendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiangshi.Canlendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		954AD4781C8924A200BAAEFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Canlendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiangshi.Canlendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		954AD47A1C8924A200BAAEFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CanlendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiangshi.CanlendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Canlendar.app/Canlendar";
+			};
+			name = Debug;
+		};
+		954AD47B1C8924A200BAAEFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CanlendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiangshi.CanlendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Canlendar.app/Canlendar";
+			};
+			name = Release;
+		};
+		954AD47D1C8924A200BAAEFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CanlendarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiangshi.CanlendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Canlendar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		954AD47E1C8924A200BAAEFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CanlendarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiangshi.CanlendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Canlendar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		954AD4441C8924A200BAAEFA /* Build configuration list for PBXProject "Canlendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				954AD4741C8924A200BAAEFA /* Debug */,
+				954AD4751C8924A200BAAEFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		954AD4761C8924A200BAAEFA /* Build configuration list for PBXNativeTarget "Canlendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				954AD4771C8924A200BAAEFA /* Debug */,
+				954AD4781C8924A200BAAEFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		954AD4791C8924A200BAAEFA /* Build configuration list for PBXNativeTarget "CanlendarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				954AD47A1C8924A200BAAEFA /* Debug */,
+				954AD47B1C8924A200BAAEFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		954AD47C1C8924A200BAAEFA /* Build configuration list for PBXNativeTarget "CanlendarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				954AD47D1C8924A200BAAEFA /* Debug */,
+				954AD47E1C8924A200BAAEFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 954AD4411C8924A200BAAEFA /* Project object */;
+}
